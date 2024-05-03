@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+  }
+
+.title {
+    text-align: center;
+    background-color: azure;
+    border-radius: 30px;
+}
+
+.text {
+    text-align: justify;
+}

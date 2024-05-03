@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paginas.css">
+</head>
+<body>
+    <h1 class="title">HTML Drag/Drop</h1>
+    <div>
+
+        <p class="text">A funcionalidade de arrastar e soltar em HTML permite que os usuários arrastem elementos HTML em uma página e os soltem em outra posição ou em um alvo específico. Isso é útil para criar interfaces de usuário interativas e intuitivas. Aqui está uma explicação e um exemplo de uso da funcionalidade de arrastar e soltar em HTML:</p>
+        <ol>
+            <li>Elementos Arrastáveis: Você pode tornar qualquer elemento HTML arrastável definindo o atributo draggable como true.</li>
+            <li>Elementos de Destino: Você pode definir elementos HTML como destinos onde os elementos arrastáveis podem ser soltos. Isso é feito usando eventos JavaScript, como dragover e drop.</li>
+            <li>JavaScript para Manipulação de Eventos: Você precisa adicionar JavaScript para lidar com os eventos de arrastar e soltar. </li>
+         </ol>
+    </div>
+    <div draggable="true">Arraste-me!</div>
+    <div id="destino" ondragover="allowDrop(event)" ondrop="drop(event)">Solte aqui!</div>
+    <script>
+        function allowDrop(event) {
+            event.preventDefault(); // Impede o comportamento padrão de permitir a soltura
+        }
+    
+        function drop(event) {
+            event.preventDefault(); // Impede o comportamento padrão de permitir a soltura
+            var data = event.dataTransfer.getData("text"); // Obtém o ID do elemento arrastado
+            event.target.appendChild(document.getElementById(data)); // Adiciona o elemento arrastado ao destino
+        }
+    </script>    
+</body>
+</html>

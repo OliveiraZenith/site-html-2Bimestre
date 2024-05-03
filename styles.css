@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+   
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+   
+  /* Estilos para o menu lateral */
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.5s;
+  }
+  
+  .sidenav h2 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 0;
+    height: 100%;
+    overflow: auto; 
+  }
+  
+  .content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  

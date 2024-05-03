@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paginas.css">
+</head>
+<body>
+    <h1 class="title">HTML Canvas</h1>
+    <div>
+
+        <p class="text">O elemento &lt;canvas> em HTML é usado para desenhar gráficos, gráficos, animações e outras imagens dinâmicas em uma página web usando JavaScript. Ele fornece uma área de desenho em que você pode usar métodos JavaScript para desenhar e manipular elementos gráficos. Aqui está uma explicação e um exemplo de uso do elemento &lt;canvas>:</p>
+        <ol>
+            <li>Criando um Canvas: Para usar o elemento &lt;canvas>, você precisa incluí-lo em sua página HTML. Você pode definir sua largura e altura usando os atributos de largura (width) e altura (height).</li>
+            <li>Desenhando no Canvas com JavaScript: Depois de criar o elemento &lt;canvas>, você pode usar JavaScript para desenhar gráficos nele. Isso geralmente é feito obtendo o contexto de desenho do canvas e chamando métodos para desenhar formas, texto, imagens, etc.</li>
+         </ol>
+    </div>
+    <canvas id="meuCanvas" width="400" height="200"></canvas>
+    <script>
+        var canvas = document.getElementById('meuCanvas');
+        var context = canvas.getContext('2d');
+    
+        context.fillStyle = 'blue';
+        context.fillRect(50, 50, 100, 100);
+
+        context.fillStyle = 'black';
+        context.font = '20px Arial';
+        context.fillText('Olá, mundo!', 50, 180);
+    </script>
+    
+</body>
+</html>
