@@ -11,7 +11,7 @@ Consulte **[o site](https://html-site-2bim.netlify.app/)** para visualizar o pro
 
 site:
 
-![Site](Images/print-1.png)
+![Site](print-1.png)
 
 
 
