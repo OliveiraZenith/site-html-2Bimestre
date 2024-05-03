@@ -5,7 +5,7 @@ Esse é um projeto criado em sala de aula, com o intuito de fazer site utilizand
 ## 🚀 Começando
 
 
-Consulte **[o site](https://661f068c73bf919aaab4474a--minipi1bimestre.netlify.app/)** para visualizar o projeto.
+Consulte **[o site](https://html-site-2bim.netlify.app/)** para visualizar o projeto.
 
 ### 📋 Pré-Visualização
 
